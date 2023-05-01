@@ -1,0 +1,10 @@
+cabal-version:      2.4
+name:               Tritone
+version:            1.0.0
+
+extra-source-files: CHANGELOG.md
+
+library
+    exposed-modules:  Tritone
+    build-depends:    base ^>=4.16.3.0, modular-arithmetic ^>= 2.0.0.2
+    hs-source-dirs:   src
